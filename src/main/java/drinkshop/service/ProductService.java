@@ -17,6 +17,7 @@ public class ProductService {
     }
 
     public void addProduct(Product p) {
+        productValidator.validate(p);
         productRepo.save(p);
     }
 
