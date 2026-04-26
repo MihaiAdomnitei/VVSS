@@ -1,0 +1,82 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:MyDrinkShop:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.openjfx:javafx-controls:jar -> version ${javafx.version} vs 22.0.1 @ line 41, column 19
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/maven-metadata.xml
+Progress (1): 240 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/maven-metadata.xml (240 B at 710 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/openjfx/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 4.6 kBProgress (1): 9.7 kBProgress (1): 14 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 476 kB/s)
+Progress (1): 3.1 kBProgress (1): 7.7 kBProgress (1): 12 kB Progress (1): 17 kBProgress (1): 20 kBProgress (1): 21 kBProgress (2): 21 kB | 245 B                           Downloaded from central: https://repo.maven.apache.org/maven2/org/openjfx/maven-metadata.xml (245 B at 2.5 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 191 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.pom
+Progress (1): 1.3 kBProgress (1): 3.7 kBProgress (1): 7.5 kBProgress (1): 11 kB Progress (1): 12 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.pom (12 kB at 360 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
+Progress (1): 788 BProgress (1): 1.8 kBProgress (1): 3.5 kBProgress (1): 7.2 kBProgress (1): 10 kB Progress (1): 14 kBProgress (1): 17 kBProgress (1): 19 kBProgress (1): 22 kBProgress (1): 25 kBProgress (1): 26 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom (26 kB at 717 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.jar
+Progress (1): 0.9/294 kBProgress (1): 2.3/294 kBProgress (1): 3.6/294 kBProgress (1): 5.0/294 kBProgress (1): 6.4/294 kBProgress (1): 7.7/294 kBProgress (1): 8.2/294 kBProgress (1): 9.6/294 kBProgress (1): 11/294 kB Progress (1): 12/294 kBProgress (1): 14/294 kBProgress (1): 15/294 kBProgress (1): 16/294 kBProgress (1): 18/294 kBProgress (1): 19/294 kBProgress (1): 20/294 kBProgress (1): 22/294 kBProgress (1): 23/294 kBProgress (1): 25/294 kBProgress (1): 26/294 kBProgress (1): 27/294 kBProgress (1): 29/294 kBProgress (1): 30/294 kBProgress (1): 31/294 kBProgress (1): 33/294 kBProgress (1): 34/294 kBProgress (1): 36/294 kBProgress (1): 37/294 kBProgress (1): 41/294 kBProgress (1): 45/294 kBProgress (1): 49/294 kBProgress (1): 53/294 kBProgress (1): 58/294 kBProgress (1): 62/294 kBProgress (1): 66/294 kBProgress (1): 70/294 kBProgress (1): 75/294 kBProgress (1): 79/294 kBProgress (1): 83/294 kBProgress (1): 87/294 kBProgress (1): 90/294 kBProgress (1): 94/294 kBProgress (1): 99/294 kBProgress (1): 103/294 kBProgress (1): 107/294 kBProgress (1): 111/294 kBProgress (1): 115/294 kBProgress (1): 120/294 kBProgress (1): 123/294 kBProgress (1): 127/294 kBProgress (1): 131/294 kBProgress (1): 136/294 kBProgress (1): 140/294 kBProgress (1): 144/294 kBProgress (1): 148/294 kBProgress (1): 152/294 kBProgress (1): 157/294 kBProgress (1): 161/294 kBProgress (1): 164/294 kBProgress (1): 168/294 kBProgress (1): 172/294 kBProgress (1): 176/294 kBProgress (1): 180/294 kBProgress (1): 184/294 kBProgress (1): 189/294 kBProgress (1): 193/294 kBProgress (1): 197/294 kBProgress (1): 201/294 kBProgress (1): 205/294 kBProgress (1): 221/294 kBProgress (1): 238/294 kBProgress (1): 254/294 kBProgress (1): 270/294 kBProgress (1): 287/294 kBProgress (1): 294 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.jar (294 kB at 3.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.10.0.2594/sonar-maven-plugin-3.10.0.2594.pom
+Progress (1): 1.1 kBProgress (1): 2.9 kBProgress (1): 6.5 kBProgress (1): 10 kB Progress (1): 12 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.10.0.2594/sonar-maven-plugin-3.10.0.2594.pom (12 kB at 325 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/68.0.0.247/parent-68.0.0.247.pom
+Progress (1): 853 BProgress (1): 2.8 kBProgress (1): 5.1 kBProgress (1): 8.0 kBProgress (1): 9.8 kBProgress (1): 13 kB Progress (1): 17 kBProgress (1): 20 kBProgress (1): 23 kBProgress (1): 26 kBProgress (1): 29 kBProgress (1): 32 kBProgress (1): 33 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/68.0.0.247/parent-68.0.0.247.pom (33 kB at 933 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.10.0.2594/sonar-maven-plugin-3.10.0.2594.jar
+Progress (1): 7.7/50 kBProgress (1): 8.2/50 kBProgress (1): 25/50 kB Progress (1): 41/50 kBProgress (1): 50 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.10.0.2594/sonar-maven-plugin-3.10.0.2594.jar (50 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.pom
+Progress (1): 778 BProgress (1): 2.2 kBProgress (1): 4.7 kBProgress (1): 7.1 kBProgress (1): 7.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.pom (7.6 kB at 212 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.jar
+Progress (1): 7.7/35 kBProgress (1): 16/35 kB Progress (1): 32/35 kBProgress (1): 35 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.5.0/maven-jar-plugin-3.5.0.jar (35 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.pom
+Progress (1): 827 BProgress (1): 3.3 kBProgress (1): 4.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.pom (4.9 kB at 152 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.4/surefire-3.5.4.pom
+Progress (1): 791 BProgress (1): 2.4 kBProgress (1): 4.1 kBProgress (1): 7.8 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 16 kBProgress (1): 18 kBProgress (1): 19 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.4/surefire-3.5.4.pom (19 kB at 618 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/44/maven-parent-44.pom
+Progress (1): 708 BProgress (1): 1.9 kBProgress (1): 5.5 kBProgress (1): 9.7 kBProgress (1): 14 kB Progress (1): 19 kBProgress (1): 23 kBProgress (1): 26 kBProgress (1): 28 kBProgress (1): 32 kBProgress (1): 36 kBProgress (1): 39 kBProgress (1): 42 kBProgress (1): 45 kBProgress (1): 49 kBProgress (1): 49 kBProgress (1): 52 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/44/maven-parent-44.pom (52 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/34/apache-34.pom
+Progress (1): 737 BProgress (1): 2.0 kBProgress (1): 4.0 kBProgress (1): 5.9 kBProgress (1): 11 kB Progress (1): 15 kBProgress (1): 19 kBProgress (1): 22 kBProgress (1): 24 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/34/apache-34.pom (24 kB at 808 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.12.1/junit-bom-5.12.1.pom
+Progress (1): 908 BProgress (1): 4.1 kBProgress (1): 5.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.12.1/junit-bom-5.12.1.pom (5.6 kB at 195 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.jar
+Progress (1): 7.7/46 kBProgress (1): 12/46 kB Progress (1): 28/46 kBProgress (1): 44/46 kBProgress (1): 46 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.jar (46 kB at 1.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.4/maven-install-plugin-3.1.4.pom
+Progress (1): 786 BProgress (1): 2.3 kBProgress (1): 5.0 kBProgress (1): 8.1 kBProgress (1): 8.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.4/maven-install-plugin-3.1.4.pom (8.1 kB at 245 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/43/maven-plugins-43.pom
+Progress (1): 773 BProgress (1): 2.3 kBProgress (1): 5.1 kBProgress (1): 7.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/43/maven-plugins-43.pom (7.5 kB at 257 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.4/maven-install-plugin-3.1.4.jar
+Progress (1): 7.7/33 kBProgress (1): 8.2/33 kBProgress (1): 25/33 kB Progress (1): 33 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.4/maven-install-plugin-3.1.4.jar (33 kB at 987 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.4/maven-deploy-plugin-3.1.4.pom
+Progress (1): 771 BProgress (1): 2.2 kBProgress (1): 4.9 kBProgress (1): 8.6 kBProgress (1): 9.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.4/maven-deploy-plugin-3.1.4.pom (9.2 kB at 230 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.4/maven-deploy-plugin-3.1.4.jar
+Progress (1): 7.7/40 kBProgress (1): 12/40 kB Progress (1): 28/40 kBProgress (1): 40 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.4/maven-deploy-plugin-3.1.4.jar (40 kB at 1.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.pom
+Progress (1): 759 BProgress (1): 2.2 kBProgress (1): 5.0 kBProgress (1): 8.3 kBProgress (1): 9.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.pom (9.1 kB at 285 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.jar
+Progress (1): 7.7/41 kBProgress (1): 12/41 kB Progress (1): 28/41 kBProgress (1): 41 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.jar (41 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.7.1/maven-assembly-plugin-3.7.1.pom
+Progress (1): 744 BProgress (1): 2.1 kBProgress (1): 4.8 kBProgress (1): 8.3 kBProgress (1): 10 kB Progress (1): 14 kBProgress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.7.1/maven-assembly-plugin-3.7.1.pom (15 kB at 461 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.7.1/maven-assembly-plugin-3.7.1.jar
+Progress (1): 3.4/240 kBProgress (1): 20/240 kB Progress (1): 36/240 kBProgress (1): 53/240 kBProgress (1): 61/240 kBProgress (1): 77/240 kBProgress (1): 85/240 kBProgress (1): 102/240 kBProgress (1): 118/240 kBProgress (1): 134/240 kBProgress (1): 151/240 kBProgress (1): 159/240 kBProgress (1): 175/240 kBProgress (1): 192/240 kBProgress (1): 208/240 kBProgress (1): 225/240 kBProgress (1): 240 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/3.7.1/maven-assembly-plugin-3.7.1.jar (240 kB at 3.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom
+Progress (1): 806 BProgress (1): 3.6 kBProgress (1): 6.6 kBProgress (1): 9.2 kBProgress (1): 9.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom (9.8 kB at 328 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/3.0.1/maven-release-3.0.1.pom
+Progress (1): 805 BProgress (1): 2.5 kBProgress (1): 4.2 kBProgress (1): 11 kB Progress (1): 11 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/3.0.1/maven-release-3.0.1.pom (11 kB at 273 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar
+Progress (1): 7.7/61 kBProgress (1): 12/61 kB Progress (1): 28/61 kBProgress (1): 44/61 kBProgress (1): 61/61 kBProgress (1): 61 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar (61 kB at 1.6 MB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.943 s
+[INFO] Finished at: 2026-03-09T09:03:27+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] No plugin found for prefix 'spotbugs' in the current project and in the plugin groups [org.openjfx, org.sonarsource.scanner.maven, org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/Users/mihaiadomnitei/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException

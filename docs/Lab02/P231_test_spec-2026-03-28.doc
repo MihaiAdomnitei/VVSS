@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec Proiect231 - amir3468_BBT</title>
+<link type="text/css" rel="stylesheet" href="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width= height= src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Specification</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Proiect231<br/>Test Suite: Proiect231 - amir3468_BBT</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 28/03/2026</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.amir3468_BBT</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc28843">P231-95: ECP - Valid</a></p><p style="padding-left: 45px;"><a href="#toc_tc28845">P231-96: ECP - Invalid</a></p><p style="padding-left: 45px;"><a href="#toc_tc28847">P231-97: BVA - Valid</a></p><p style="padding-left: 45px;"><a href="#toc_tc28849">P231-98: BVA - Invalid</a></p></div><h1 class="doclevel" >Scope</h1>
+<div class="txtlevel"><p>Proiect de testare pentru studentii din grupa 231.</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1.Test Suite : amir3468_BBT</h1>
+<div><p>Se testeaza F01</p>
+</div><a name="toc_tc28843"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P231-95: ECP - Valid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">amir3468</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se verifica faptul ca sistemul permite adaugarea unui produs nou atunci cand toate atributele introduse sunt valide si complete.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>- Nu exista deja in sistem un produs cu acelasi id</p>
+
+<p>- Baza de date este disponibila</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Se acceseaza functionalitatea addPrduct():<br />
+- se introduc&nbsp;valorile atributelor id, nume, pret, ...</p>
+
+<p>- se apasa butonul Add</p>
+</td><td><p>Produsul este adaugat cu succes.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3">2.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >ProductTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >addProduct_ECP_Valid()</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">bpir3489_F01:  F01_Add_Product [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc28845"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P231-96: ECP - Invalid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">amir3468</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se verifica faptul ca sistemul nu permite adaugarea unui prodous care unul din campuri goale ( ex: nume , pret etc)</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Se acceseaza functionalitatea addPrduct():<br />
+			- se introduc&nbsp;valorile atributelor :<br />
+			&nbsp; &nbsp; &nbsp; &nbsp;- ex: campul nume este lasat gol .</p>
+
+			<p>- se apasa butonul Add</p>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</td><td><p>Produsul nu este adaugat . Se afiseaza un mesaj de eroare, camp vid !</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3">2.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >ProductTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >addProduct_ECP_Invalid()</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">bpir3489_F01:  F01_Add_Product [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc28847"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P231-97: BVA - Valid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">amir3468</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se verifica ca se permite adaugarea unui produs nou atunci cand atributul nume este valid.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>- Nu exista deja in sistem un produs cu acelasi id</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Se acceseaza functionalitatea addPrduct():<br />
+			- se introduc&nbsp;valorile atributelor id, nume, pret, ...</p>
+
+			<p>- se apasa butonul Add</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</td><td><p>Produsul este adaugat cu succes in sistem.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >ProductTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >addProduct_BVAValid()</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">bpir3489_F01:  F01_Add_Product [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc28849"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case P231-98: BVA - Invalid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">amir3468</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se verifica daca sistemul accepta si salveaza un produs cu pretul &lt;= 0 .</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>- Utilizatorul are acces la functionalitate si aplicatia ruleaza&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Se acceseaza functionalitatea addPrduct():<br />
+			- se introduc valorile campurilor id, nume, iar valorea pretului :<br />
+			&nbsp; &nbsp; &nbsp;pret = 0;</p>
+
+			<p>- se apasa butonul Add</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</td><td><p>Produsul nu este adaugat in sistem. Pret invalid .</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >ProductBoundaryTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >addProduct_BVAInvalid()</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">bpir3489_F01:  F01_Add_Product [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
