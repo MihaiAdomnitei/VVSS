@@ -31,7 +31,7 @@ class ProductServiceTest {
     @BeforeEach
     void setUp() {
         DummyProductRepo repo = new DummyProductRepo();
-        productService = new ProductService(repo);
+        productService = new ProductService(repo, new ProductValidator());
         
         // Arrange - Adaugam un produs existent in repository pentru a avea ce face update
         Product p = new Product(1, "Apa", 5.0, CategorieBautura.ALL, TipBautura.ALL);

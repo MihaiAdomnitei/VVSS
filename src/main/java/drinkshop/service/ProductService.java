@@ -9,9 +9,11 @@ import java.util.stream.Collectors;
 public class ProductService {
 
     private final Repository<Integer, Product> productRepo;
+    private final drinkshop.service.validator.ProductValidator productValidator;
 
-    public ProductService(Repository<Integer, Product> productRepo) {
+    public ProductService(Repository<Integer, Product> productRepo, drinkshop.service.validator.ProductValidator productValidator) {
         this.productRepo = productRepo;
+        this.productValidator = productValidator;
     }
 
     public void addProduct(Product p) {
@@ -20,8 +22,7 @@ public class ProductService {
 
     public void updateProduct(int id, String name, double price, CategorieBautura categorie, TipBautura tip) {
         Product updated = new Product(id, name, price, categorie, tip);
-        drinkshop.service.validator.ProductValidator validator = new drinkshop.service.validator.ProductValidator();
-        validator.validate(updated);
+        productValidator.validate(updated);
         productRepo.update(updated);
     }
 

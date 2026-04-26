@@ -40,7 +40,7 @@ public class ProductServiceWBTTest {
     @BeforeEach
     void setup() {
         fakeRepo = new FakeRepository();
-        productService = new ProductService(fakeRepo); 
+        productService = new ProductService(fakeRepo, new drinkshop.service.validator.ProductValidator()); 
     }
 
     // TEST 1: Acoperă ramificația TRUE din funcția de pe ramura Categorie
